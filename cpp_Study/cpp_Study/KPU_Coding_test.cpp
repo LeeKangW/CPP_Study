@@ -87,9 +87,9 @@ void get_prime(unsigned int num) {
 int main() {
 	unsigned int N = 0;
 	
-		cout << " 정수 N 입력: ";
-		cin >> N;
-		get_prime(N);
+	cout << " 정수 N 입력: ";
+	cin >> N;
+	get_prime(N);
 
-		return 0;
+	return 0;
 }
