@@ -27,6 +27,7 @@ EX
 Input = 31
 output = 101
 */
+
 using namespace std;
 
 void sizeint(int N,vector<int>& arr) {
