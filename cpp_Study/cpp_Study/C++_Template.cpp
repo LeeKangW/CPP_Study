@@ -5,7 +5,7 @@ using namespace std;
 
 // 클래스로 사용
 template<typename T1,typename T2>
-class Print {
+class Print{
 private:
 	// 멤버 변수로도 사용 가능하다.
 	T1 result;
