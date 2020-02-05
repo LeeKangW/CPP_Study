@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\coding_test%28char&amp;string%29">
+      <UniqueIdentifier>{a03cd254-9b67-493c-b696-9b03855b6af4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Class.cpp">
@@ -53,6 +56,21 @@
     </ClCompile>
     <ClCompile Include="상속.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="coding_test_atoi.cpp">
+      <Filter>소스 파일\coding_test%28char&amp;string%29</Filter>
+    </ClCompile>
+    <ClCompile Include="coding_test_addnum.cpp">
+      <Filter>소스 파일\coding_test%28char&amp;string%29</Filter>
+    </ClCompile>
+    <ClCompile Include="find_alphabet.cpp">
+      <Filter>소스 파일\coding_test%28char&amp;string%29</Filter>
+    </ClCompile>
+    <ClCompile Include="2675.cpp">
+      <Filter>소스 파일\coding_test%28char&amp;string%29</Filter>
+    </ClCompile>
+    <ClCompile Include="1157.cpp">
+      <Filter>소스 파일\coding_test%28char&amp;string%29</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
