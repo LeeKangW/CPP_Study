@@ -7,7 +7,15 @@ private:
 	int num;
 public:
 	X(int k) :num(k){}
+
+	friend ostream& operator<<(ostream& os, const X& k);
 };
+
+ostream& operator<<(ostream& os, const X& k)
+{
+	os << k.num;
+	return os;
+}
 
 void change(X& a, X& b) {
 	X c{ a };
@@ -22,5 +30,5 @@ int main() {
 	
 	change(a, b);
 
-	cout << a << endl;
+	cout << a <<","<< b << endl;
 }
