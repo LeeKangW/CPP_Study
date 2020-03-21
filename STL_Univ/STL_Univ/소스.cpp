@@ -1,4 +1,4 @@
-#include<iostream>
+#include"default.h"
 
 using namespace std;
 
@@ -17,11 +17,7 @@ ostream& operator<<(ostream& os, const X& k)
 	return os;
 }
 
-void change(X& a, X& b) {
-	X c{ a };
-	a = b;
-	b = c;
-}
+void change(X& a, X& b);
 
 int main() {
 	X a{ 1 };
@@ -31,4 +27,11 @@ int main() {
 	change(a, b);
 
 	cout << a <<","<< b << endl;
+
+	//save("¼Ò½º.cpp");
+}
+void change(X& a, X& b){
+	X c{ a };
+	a = b;
+	b = c;
 }

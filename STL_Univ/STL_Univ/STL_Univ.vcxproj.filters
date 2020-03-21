@@ -13,10 +13,39 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\클래스 복습">
+      <UniqueIdentifier>{7bd80860-a3be-4ff1-822f-4ca51292ba11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\1주 1일">
+      <UniqueIdentifier>{d13dc9c1-475c-4dad-911a-c2ff9e7b20e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\1주 2일">
+      <UniqueIdentifier>{cb678cd7-1286-4c15-9ae6-1d37db6bca42}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="소스.cpp">
+      <Filter>소스 파일\1주 1일</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1.cpp">
+      <Filter>소스 파일\클래스 복습</Filter>
+    </ClCompile>
+    <ClCompile Include="Q6.cpp">
+      <Filter>소스 파일\클래스 복습</Filter>
+    </ClCompile>
+    <ClCompile Include="Q7.cpp">
+      <Filter>소스 파일\클래스 복습</Filter>
+    </ClCompile>
+    <ClCompile Include="파일입출력.cpp">
+      <Filter>소스 파일\1주 2일</Filter>
+    </ClCompile>
+    <ClCompile Include="save함수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="default.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
