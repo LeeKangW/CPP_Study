@@ -31,6 +31,12 @@
     <Filter Include="소스 파일\2주 1일\강의">
       <UniqueIdentifier>{e9e0f584-f01c-44cc-bbda-9995878ac52a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\2주 2일">
+      <UniqueIdentifier>{60cfd57f-943b-4ff3-b26c-5e24da08041d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2주 2일\과제">
+      <UniqueIdentifier>{ec8a9748-f753-4ed1-836d-06d6b4e32428}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="소스.cpp">
@@ -71,6 +77,27 @@
     </ClCompile>
     <ClCompile Include="문제1.cpp">
       <Filter>소스 파일\2주 1일\2주1일_과제</Filter>
+    </ClCompile>
+    <ClCompile Include="실행시간측정.cpp">
+      <Filter>소스 파일\2주 2일</Filter>
+    </ClCompile>
+    <ClCompile Include="실행시간측정_c++답게.cpp">
+      <Filter>소스 파일\2주 2일</Filter>
+    </ClCompile>
+    <ClCompile Include="sort_시간측정.cpp">
+      <Filter>소스 파일\2주 2일</Filter>
+    </ClCompile>
+    <ClCompile Include="템플릿과제너릭.cpp">
+      <Filter>소스 파일\2주 2일</Filter>
+    </ClCompile>
+    <ClCompile Include="실습1.cpp">
+      <Filter>소스 파일\2주 2일</Filter>
+    </ClCompile>
+    <ClCompile Include="2주2일_문제1.cpp">
+      <Filter>소스 파일\2주 2일\과제</Filter>
+    </ClCompile>
+    <ClCompile Include="2주2일_문제2.cpp">
+      <Filter>소스 파일\2주 2일\과제</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
