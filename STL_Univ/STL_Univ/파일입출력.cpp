@@ -2,6 +2,7 @@
 #include<random>
 #include<algorithm>
 #include<array>
+#include<fstream>
 
 void find_max(array<int, 1000> arr);
 

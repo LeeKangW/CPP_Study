@@ -22,6 +22,15 @@
     <Filter Include="소스 파일\1주 2일">
       <UniqueIdentifier>{cb678cd7-1286-4c15-9ae6-1d37db6bca42}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\2주 1일">
+      <UniqueIdentifier>{4e8a323b-ad52-4baf-9181-035000d39da9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2주 1일\2주1일_과제">
+      <UniqueIdentifier>{85e113d6-7fc7-4412-8620-17c82cc46c4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2주 1일\강의">
+      <UniqueIdentifier>{e9e0f584-f01c-44cc-bbda-9995878ac52a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="소스.cpp">
@@ -41,6 +50,27 @@
     </ClCompile>
     <ClCompile Include="save함수.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="메모리_값_그대로저장.cpp">
+      <Filter>소스 파일\2주 1일\강의</Filter>
+    </ClCompile>
+    <ClCompile Include="정렬_qsort.cpp">
+      <Filter>소스 파일\2주 1일\강의</Filter>
+    </ClCompile>
+    <ClCompile Include="정렬_qsort람다사용.cpp">
+      <Filter>소스 파일\2주 1일\강의</Filter>
+    </ClCompile>
+    <ClCompile Include="정렬_sort.cpp">
+      <Filter>소스 파일\2주 1일\강의</Filter>
+    </ClCompile>
+    <ClCompile Include="최댓값찾기_바이너리파일.cpp">
+      <Filter>소스 파일\2주 1일\강의</Filter>
+    </ClCompile>
+    <ClCompile Include="파일저장_용량.cpp">
+      <Filter>소스 파일\2주 1일\강의</Filter>
+    </ClCompile>
+    <ClCompile Include="문제1.cpp">
+      <Filter>소스 파일\2주 1일\2주1일_과제</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

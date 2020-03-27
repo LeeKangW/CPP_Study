@@ -1,4 +1,5 @@
 #include"default.h"
+#include<fstream>
 
 void save(string str) { // save Á¤ÀÇ
 
