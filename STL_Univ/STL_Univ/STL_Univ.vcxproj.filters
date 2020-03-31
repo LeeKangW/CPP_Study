@@ -37,6 +37,12 @@
     <Filter Include="소스 파일\2주 2일\과제">
       <UniqueIdentifier>{ec8a9748-f753-4ed1-836d-06d6b4e32428}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\3주 1일">
+      <UniqueIdentifier>{3880488a-0887-4808-9805-d34c73e4c23b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3주 1일\과제">
+      <UniqueIdentifier>{4b2c6541-0398-4882-bae1-a483612e2425}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="소스.cpp">
@@ -98,6 +104,24 @@
     </ClCompile>
     <ClCompile Include="2주2일_문제2.cpp">
       <Filter>소스 파일\2주 2일\과제</Filter>
+    </ClCompile>
+    <ClCompile Include="1000%270000개읽기.cpp">
+      <Filter>소스 파일\3주 1일</Filter>
+    </ClCompile>
+    <ClCompile Include="STACK 변수로 읽기.cpp">
+      <Filter>소스 파일\3주 1일</Filter>
+    </ClCompile>
+    <ClCompile Include="DATA영역 변수로 받기.cpp">
+      <Filter>소스 파일\3주 1일</Filter>
+    </ClCompile>
+    <ClCompile Include="HEAP 영역으로 받기.cpp">
+      <Filter>소스 파일\3주 1일</Filter>
+    </ClCompile>
+    <ClCompile Include="다수 클래스 객체를 사용하는 프로그램.cpp">
+      <Filter>소스 파일\3주 1일</Filter>
+    </ClCompile>
+    <ClCompile Include="과제.cpp">
+      <Filter>소스 파일\3주 1일\과제</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
