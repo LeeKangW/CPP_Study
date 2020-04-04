@@ -43,6 +43,9 @@
     <Filter Include="소스 파일\3주 1일\과제">
       <UniqueIdentifier>{4b2c6541-0398-4882-bae1-a483612e2425}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\3주 2일">
+      <UniqueIdentifier>{bdaa35a6-4599-4216-a15a-682a7df3a6ed}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="소스.cpp">
@@ -122,6 +125,15 @@
     </ClCompile>
     <ClCompile Include="과제.cpp">
       <Filter>소스 파일\3주 1일\과제</Filter>
+    </ClCompile>
+    <ClCompile Include="함수포인터.cpp">
+      <Filter>소스 파일\3주 2일</Filter>
+    </ClCompile>
+    <ClCompile Include="sin 곡선 출력.cpp">
+      <Filter>소스 파일\3주 2일</Filter>
+    </ClCompile>
+    <ClCompile Include="함수 인자로 전달.cpp">
+      <Filter>소스 파일\3주 2일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
