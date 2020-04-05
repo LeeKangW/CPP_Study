@@ -46,6 +46,9 @@
     <Filter Include="소스 파일\3주 2일">
       <UniqueIdentifier>{bdaa35a6-4599-4216-a15a-682a7df3a6ed}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\3주 2일\과제">
+      <UniqueIdentifier>{f44dfe31-1863-4040-a667-383b89887af1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="소스.cpp">
@@ -134,6 +137,21 @@
     </ClCompile>
     <ClCompile Include="함수 인자로 전달.cpp">
       <Filter>소스 파일\3주 2일</Filter>
+    </ClCompile>
+    <ClCompile Include="호출가능타입_람다.cpp">
+      <Filter>소스 파일\3주 2일</Filter>
+    </ClCompile>
+    <ClCompile Include="클래스 객체 호출 ( 클래스 호출가능 타입 ).cpp">
+      <Filter>소스 파일\3주 2일</Filter>
+    </ClCompile>
+    <ClCompile Include="function 템플릿.cpp">
+      <Filter>소스 파일\3주 2일</Filter>
+    </ClCompile>
+    <ClCompile Include="스마트 포인터.cpp">
+      <Filter>소스 파일\3주 2일</Filter>
+    </ClCompile>
+    <ClCompile Include="3주 2일-과제.cpp">
+      <Filter>소스 파일\3주 2일\과제</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

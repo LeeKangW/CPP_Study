@@ -1,9 +1,9 @@
 #include"default.h"
 
-void(*func1)() = jump;
-void(*func2)() = slide;
 void jump();
 void slide();
+void(*func1)() = jump;
+void(*func2)() = slide;
 
 int main() {
 	char key;
