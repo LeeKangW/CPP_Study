@@ -49,6 +49,9 @@
     <Filter Include="소스 파일\3주 2일\과제">
       <UniqueIdentifier>{f44dfe31-1863-4040-a667-383b89887af1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\4주 1일%28STL 시작%29">
+      <UniqueIdentifier>{2231f60b-69c2-4083-94aa-534f026f14ea}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="소스.cpp">
@@ -153,9 +156,33 @@
     <ClCompile Include="3주 2일-과제.cpp">
       <Filter>소스 파일\3주 2일\과제</Filter>
     </ClCompile>
+    <ClCompile Include="vector.cpp">
+      <Filter>소스 파일\4주 1일%28STL 시작%29</Filter>
+    </ClCompile>
+    <ClCompile Include="String.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="vector(STL 처럼).cpp">
+      <Filter>소스 파일\4주 1일%28STL 시작%29</Filter>
+    </ClCompile>
+    <ClCompile Include="교수님 준 파일 예제.cpp">
+      <Filter>소스 파일\4주 1일%28STL 시작%29</Filter>
+    </ClCompile>
+    <ClCompile Include="교수님 파일 스마트포인터.cpp">
+      <Filter>소스 파일\4주 1일%28STL 시작%29</Filter>
+    </ClCompile>
+    <ClCompile Include="STL 중 array.cpp">
+      <Filter>소스 파일\4주 1일%28STL 시작%29</Filter>
+    </ClCompile>
+    <ClCompile Include="STL 중 Array 2.cpp">
+      <Filter>소스 파일\4주 1일%28STL 시작%29</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="default.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="String.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
