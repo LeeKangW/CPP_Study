@@ -52,6 +52,9 @@
     <Filter Include="소스 파일\4주 1일%28STL 시작%29">
       <UniqueIdentifier>{2231f60b-69c2-4083-94aa-534f026f14ea}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\4주 2일%28vector%29">
+      <UniqueIdentifier>{cdd7443e-8e06-4c01-ae4b-1b77d046a3ea}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="소스.cpp">
@@ -176,6 +179,21 @@
     </ClCompile>
     <ClCompile Include="STL 중 Array 2.cpp">
       <Filter>소스 파일\4주 1일%28STL 시작%29</Filter>
+    </ClCompile>
+    <ClCompile Include="array와 sort.cpp">
+      <Filter>소스 파일\4주 2일%28vector%29</Filter>
+    </ClCompile>
+    <ClCompile Include="array와 sort 두번째%28미완%29.cpp">
+      <Filter>소스 파일\4주 2일%28vector%29</Filter>
+    </ClCompile>
+    <ClCompile Include="vector의 기본.cpp">
+      <Filter>소스 파일\4주 2일%28vector%29</Filter>
+    </ClCompile>
+    <ClCompile Include="vector 공간 바뀌는 정보 출력.cpp">
+      <Filter>소스 파일\4주 2일%28vector%29</Filter>
+    </ClCompile>
+    <ClCompile Include="vector 진짜 원소넣기.cpp">
+      <Filter>소스 파일\4주 2일%28vector%29</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
