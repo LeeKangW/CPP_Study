@@ -55,6 +55,12 @@
     <Filter Include="소스 파일\4주 2일%28vector%29">
       <UniqueIdentifier>{cdd7443e-8e06-4c01-ae4b-1b77d046a3ea}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\5주 1일%28vector%29">
+      <UniqueIdentifier>{4b595b39-cd8e-4c37-9238-6c0d516ebde1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\5주 2일%28 벡터 덱 %29">
+      <UniqueIdentifier>{3b4dde31-570d-44ed-bdc6-c551d7891248}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="소스.cpp">
@@ -194,6 +200,39 @@
     </ClCompile>
     <ClCompile Include="vector 진짜 원소넣기.cpp">
       <Filter>소스 파일\4주 2일%28vector%29</Filter>
+    </ClCompile>
+    <ClCompile Include="HEAP 메모리 구조.cpp">
+      <Filter>소스 파일\5주 1일%28vector%29</Filter>
+    </ClCompile>
+    <ClCompile Include="STACK 메모리 구.cpp">
+      <Filter>소스 파일\5주 1일%28vector%29</Filter>
+    </ClCompile>
+    <ClCompile Include="메모리 구조3.cpp">
+      <Filter>소스 파일\5주 1일%28vector%29</Filter>
+    </ClCompile>
+    <ClCompile Include="vector의 메모리.cpp">
+      <Filter>소스 파일\5주 1일%28vector%29</Filter>
+    </ClCompile>
+    <ClCompile Include="벡터와 클래스 객체.cpp">
+      <Filter>소스 파일\5주 2일%28 벡터 덱 %29</Filter>
+    </ClCompile>
+    <ClCompile Include="벡터와 클래스 객체 - 메모리 관리.cpp">
+      <Filter>소스 파일\5주 2일%28 벡터 덱 %29</Filter>
+    </ClCompile>
+    <ClCompile Include="컨테이너에서 객체의 복사와 이동.cpp">
+      <Filter>소스 파일\5주 2일%28 벡터 덱 %29</Filter>
+    </ClCompile>
+    <ClCompile Include="벡터의 원소 제거.cpp">
+      <Filter>소스 파일\5주 2일%28 벡터 덱 %29</Filter>
+    </ClCompile>
+    <ClCompile Include="정수 만개 내용 vector로 읽기.cpp">
+      <Filter>소스 파일\5주 2일%28 벡터 덱 %29</Filter>
+    </ClCompile>
+    <ClCompile Include="덱의 시작.cpp">
+      <Filter>소스 파일\5주 2일%28 벡터 덱 %29</Filter>
+    </ClCompile>
+    <ClCompile Include="덱의 메모리 구조.cpp">
+      <Filter>소스 파일\5주 2일%28 벡터 덱 %29</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
