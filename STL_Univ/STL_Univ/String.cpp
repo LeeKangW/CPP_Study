@@ -124,3 +124,17 @@ std::ostream& operator<<( std::ostream& os, const String& s )
 	return os;
 }
 
+// 2020. 4. 20 Ãß°¡
+bool String::operator==(const String& rhs)const noexcept {
+	if (len == rhs.len)
+	{
+		for (int i = 0; i < len; ++i)
+		{
+			if (p[i] != rhs.p[i])
+				return false;
+		}
+		return true;
+	}
+	return false;
+}
+

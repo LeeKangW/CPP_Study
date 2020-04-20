@@ -36,6 +36,10 @@ public:
 
 	std::string getString( ) const;
 
+	// 비교연산자
+	// 2020.04.20 추가
+	bool operator==(const String& rhs)const noexcept;
+
 	friend std::ostream& operator<<( std::ostream& os, const String& s );
 };
 

@@ -61,6 +61,9 @@
     <Filter Include="소스 파일\5주 2일%28 벡터 덱 %29">
       <UniqueIdentifier>{3b4dde31-570d-44ed-bdc6-c551d7891248}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\6주 1일%28리스트%29">
+      <UniqueIdentifier>{a8ceea3c-f307-4598-871c-735c2e3b9333}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="소스.cpp">
@@ -233,6 +236,21 @@
     </ClCompile>
     <ClCompile Include="덱의 메모리 구조.cpp">
       <Filter>소스 파일\5주 2일%28 벡터 덱 %29</Filter>
+    </ClCompile>
+    <ClCompile Include="forward_list.cpp">
+      <Filter>소스 파일\6주 1일%28리스트%29</Filter>
+    </ClCompile>
+    <ClCompile Include="list remove 사용.cpp">
+      <Filter>소스 파일\6주 1일%28리스트%29</Filter>
+    </ClCompile>
+    <ClCompile Include="list 원소제거를 list 답게.cpp">
+      <Filter>소스 파일\6주 1일%28리스트%29</Filter>
+    </ClCompile>
+    <ClCompile Include="list의 merge 와 splice.cpp">
+      <Filter>소스 파일\6주 1일%28리스트%29</Filter>
+    </ClCompile>
+    <ClCompile Include="list의 sort와 unique.cpp">
+      <Filter>소스 파일\6주 1일%28리스트%29</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
