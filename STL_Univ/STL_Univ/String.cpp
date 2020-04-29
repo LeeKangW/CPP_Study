@@ -138,3 +138,18 @@ bool String::operator==(const String& rhs)const noexcept {
 	return false;
 }
 
+// 반복자를 위한 멤법
+// 2020. 4. 25 추가
+String::iterator String::begin() {
+	return iterator(p);
+}
+String::iterator String::end() {
+	return iterator(p + len);
+}
+String::reverse_iterator String::rbegin() {
+	return reverse_iterator(p+len);
+}
+String::reverse_iterator String::rend() {
+	return reverse_iterator(p);
+}
+
