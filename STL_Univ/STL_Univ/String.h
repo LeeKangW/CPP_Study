@@ -28,7 +28,6 @@ public:
 class String_Iterator {
 	char* p{ nullptr };
 public:
-	String_Iterator() {}
 	String_Iterator(char* p) :p{ p } {}
 
 	
@@ -36,25 +35,14 @@ public:
 		return *p;
 	}
 
-	ptrdiff_t operator-(const String_Iterator rhs)const {
+	ptrdiff_t operator-(const String_Iterator& rhs)const {
 		return p - rhs.p;
 	}
-
-	ptrdiff_t operator+(const String_Iterator rhs)const {
-		return (ptrdiff_t)p + (ptrdiff_t)rhs.p;
-	}
-	ptrdiff_t operator<(const String_Iterator rhs)const {
-		return p < rhs.p;
-	}
-	ptrdiff_t operator==(const String_Iterator rhs)const {
+	ptrdiff_t operator==(const String_Iterator& rhs)const {
 		return p == rhs.p;
 	}
 	ptrdiff_t operator!=(const String_Iterator& rhs)const {
 		return p != rhs.p;
-	}
-	String_Iterator& operator=(const String_Iterator& rhs) {
-		strcpy_s(p, strlen(rhs.p) + 1, rhs.p);
-		return *this;
 	}
 	char& operator[](const int index)const {
 		return p[index];

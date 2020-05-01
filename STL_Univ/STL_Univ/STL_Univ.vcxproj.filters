@@ -76,6 +76,12 @@
     <Filter Include="소스 파일\7주 1일%28반복자%29">
       <UniqueIdentifier>{c7b02e68-acc7-4528-86ae-566d00169b59}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\7주 2일%28제네릭 함수%29">
+      <UniqueIdentifier>{f20776a1-2df7-4911-90bd-b8700c414acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\7주 2일%28제네릭 함수%29\고급문제">
+      <UniqueIdentifier>{10c4db96-0109-461b-9d99-aad61f7ae89e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="소스.cpp">
@@ -317,6 +323,27 @@
     </ClCompile>
     <ClCompile Include="String의 반복자 종류 출력.cpp">
       <Filter>소스 파일\7주 1일%28반복자%29</Filter>
+    </ClCompile>
+    <ClCompile Include="컨테이너 원소 출력 함수 만들기.cpp">
+      <Filter>소스 파일\7주 2일%28제네릭 함수%29</Filter>
+    </ClCompile>
+    <ClCompile Include="최대, 최소 찾기.cpp">
+      <Filter>소스 파일\7주 2일%28제네릭 함수%29</Filter>
+    </ClCompile>
+    <ClCompile Include="최대,최소 String.cpp">
+      <Filter>소스 파일\7주 2일%28제네릭 함수%29</Filter>
+    </ClCompile>
+    <ClCompile Include="최댓값 찾는 함수 만들기.cpp">
+      <Filter>소스 파일\7주 2일%28제네릭 함수%29</Filter>
+    </ClCompile>
+    <ClCompile Include="copy함수 만들기.cpp">
+      <Filter>소스 파일\7주 2일%28제네릭 함수%29</Filter>
+    </ClCompile>
+    <ClCompile Include="만든 copy 함수에 vector 사용.cpp">
+      <Filter>소스 파일\7주 2일%28제네릭 함수%29</Filter>
+    </ClCompile>
+    <ClCompile Include="String_back_insert_iterator(str)를 만들기.cpp">
+      <Filter>소스 파일\7주 2일%28제네릭 함수%29\고급문제</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
