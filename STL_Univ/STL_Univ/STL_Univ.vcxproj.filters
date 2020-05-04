@@ -82,6 +82,12 @@
     <Filter Include="소스 파일\7주 2일%28제네릭 함수%29\고급문제">
       <UniqueIdentifier>{10c4db96-0109-461b-9d99-aad61f7ae89e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\8주 1일%28맵%29">
+      <UniqueIdentifier>{da4a291d-1f0e-4fea-aa4e-251307459e30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\8주 1일%28맵%29\실습">
+      <UniqueIdentifier>{8b2dc014-f60c-4cce-93f4-6acf677e04af}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="소스.cpp">
@@ -344,6 +350,27 @@
     </ClCompile>
     <ClCompile Include="String_back_insert_iterator(str)를 만들기.cpp">
       <Filter>소스 파일\7주 2일%28제네릭 함수%29\고급문제</Filter>
+    </ClCompile>
+    <ClCompile Include="2. map에서 원소 찾기.cpp">
+      <Filter>소스 파일\8주 1일%28맵%29</Filter>
+    </ClCompile>
+    <ClCompile Include="1. map에 원소 추가.cpp">
+      <Filter>소스 파일\8주 1일%28맵%29</Filter>
+    </ClCompile>
+    <ClCompile Include="실습1.idolGroups의 원소들을 그림과 같이 데뷔년도 기준 오름차순으로 출력하라.cpp">
+      <Filter>소스 파일\8주 1일%28맵%29\실습</Filter>
+    </ClCompile>
+    <ClCompile Include="4. 단어 사용 횟수 출력.cpp">
+      <Filter>소스 파일\8주 1일%28맵%29</Filter>
+    </ClCompile>
+    <ClCompile Include="3.전화번호부 [ ]사용.cpp">
+      <Filter>소스 파일\8주 1일%28맵%29</Filter>
+    </ClCompile>
+    <ClCompile Include="특정 단어가 몇번이나 사용되었는지 확인하는 프로그램.cpp">
+      <Filter>소스 파일\8주 1일%28맵%29\실습</Filter>
+    </ClCompile>
+    <ClCompile Include="읽은 파일에서 가장 많이 사용된 단어부터 단어와 출력횟수 모두 출력.cpp">
+      <Filter>소스 파일\8주 1일%28맵%29\실습</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
