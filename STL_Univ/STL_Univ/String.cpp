@@ -13,6 +13,7 @@
 
 // 관찰메시지를 출력하려면 주석을 제거할 것
 #define 관찰
+#undef 관찰
 
 String::String( ) {
 #ifdef 관찰
@@ -153,3 +154,7 @@ String::reverse_iterator String::rend() {
 	return reverse_iterator(p);
 }
 
+// 2020.5.8 추가
+bool String::operator<(const String& rhs)const {
+	return getString() < rhs.getString();
+}

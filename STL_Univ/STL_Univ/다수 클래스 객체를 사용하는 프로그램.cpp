@@ -40,7 +40,7 @@ ostream& operator<<(ostream& os, const Dog& dog) {
 
 int main() {
 
-	ofstream out("Dog만마리", ios::binary);
+	ofstream out("Dog만마리",ios::binary);
 
 	for (int i = 0; i < 1'0000; ++i) {
 		Dog d;

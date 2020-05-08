@@ -88,6 +88,9 @@
     <Filter Include="소스 파일\8주 1일%28맵%29\실습">
       <UniqueIdentifier>{8b2dc014-f60c-4cce-93f4-6acf677e04af}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\8주 2일%28맵, 셋%29">
+      <UniqueIdentifier>{ee7bd581-3c4d-4db5-a42c-106ebb3ade08}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="소스.cpp">
@@ -371,6 +374,27 @@
     </ClCompile>
     <ClCompile Include="읽은 파일에서 가장 많이 사용된 단어부터 단어와 출력횟수 모두 출력.cpp">
       <Filter>소스 파일\8주 1일%28맵%29\실습</Filter>
+    </ClCompile>
+    <ClCompile Include="5. map에 사용자 정의 클래스 넣기.cpp">
+      <Filter>소스 파일\8주 2일%28맵, 셋%29</Filter>
+    </ClCompile>
+    <ClCompile Include="6.Multimap 사용.cpp">
+      <Filter>소스 파일\8주 2일%28맵, 셋%29</Filter>
+    </ClCompile>
+    <ClCompile Include="실습 1 알파벳 문자의 사용 횟수 확인.cpp">
+      <Filter>소스 파일\8주 2일%28맵, 셋%29</Filter>
+    </ClCompile>
+    <ClCompile Include="실습2 사용빈도가 많은 순으로 출력.cpp">
+      <Filter>소스 파일\8주 2일%28맵, 셋%29</Filter>
+    </ClCompile>
+    <ClCompile Include="7.set 만들어보기.cpp">
+      <Filter>소스 파일\8주 2일%28맵, 셋%29</Filter>
+    </ClCompile>
+    <ClCompile Include="8.multiset 만들기.cpp">
+      <Filter>소스 파일\8주 2일%28맵, 셋%29</Filter>
+    </ClCompile>
+    <ClCompile Include="실습 3. Dog만마리 파일을 set으로 읽기.cpp">
+      <Filter>소스 파일\8주 2일%28맵, 셋%29</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

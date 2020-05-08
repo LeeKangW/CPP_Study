@@ -100,6 +100,9 @@ public:
 	iterator end();
 	reverse_iterator rbegin();
 	reverse_iterator rend();
+
+	// 2020.5.8 추가
+	bool operator<(const String& rhs)const;
 };
 
 // 2020. 4. 26 추가
