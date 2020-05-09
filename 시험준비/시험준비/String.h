@@ -37,5 +37,8 @@ public:
 	std::string getString( ) const;
 
 	friend std::ostream& operator<<( std::ostream& os, const String& s );
+
+	// ¿¬½À
+	bool operator==(const String& str)const noexcept;
 };
 

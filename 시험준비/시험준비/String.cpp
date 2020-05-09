@@ -125,3 +125,15 @@ std::ostream& operator<<( std::ostream& os, const String& s )
 	return os;
 }
 
+bool String::operator==(const String& str)const noexcept {
+	if (len == str.len)
+	{
+		for (int i = 0; i < len; ++i){
+			if (p[i] != str.p[i])
+				return false;
+		}
+		return true;
+	}
+	return false;
+}
+

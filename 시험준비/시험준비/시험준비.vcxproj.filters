@@ -16,6 +16,12 @@
     <Filter Include="소스 파일\STL">
       <UniqueIdentifier>{e28c0564-a2e9-4ebe-9a0c-4d7d70a15787}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\STL\vector">
+      <UniqueIdentifier>{809bc6eb-8fdc-4f2f-a962-576da4e6e3dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\STL\list">
+      <UniqueIdentifier>{b28d5aea-8bdf-458a-a1ec-e23d59380a46}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1주1일-과제.cpp">
@@ -69,23 +75,35 @@
     <ClCompile Include="스마트 포인터.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="STL 시작.cpp">
-      <Filter>소스 파일\STL</Filter>
-    </ClCompile>
     <ClCompile Include="String.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="STL 시작.cpp">
+      <Filter>소스 파일\STL\vector</Filter>
+    </ClCompile>
     <ClCompile Include="String 헤더를 사용.cpp">
-      <Filter>소스 파일\STL</Filter>
+      <Filter>소스 파일\STL\vector</Filter>
     </ClCompile>
     <ClCompile Include="vector 사용.cpp">
-      <Filter>소스 파일\STL</Filter>
+      <Filter>소스 파일\STL\vector</Filter>
     </ClCompile>
     <ClCompile Include="vector 삭제.cpp">
-      <Filter>소스 파일\STL</Filter>
+      <Filter>소스 파일\STL\vector</Filter>
     </ClCompile>
     <ClCompile Include="vector 정수 만개 count.cpp">
-      <Filter>소스 파일\STL</Filter>
+      <Filter>소스 파일\STL\vector</Filter>
+    </ClCompile>
+    <ClCompile Include="list_remove 사용.cpp">
+      <Filter>소스 파일\STL\list</Filter>
+    </ClCompile>
+    <ClCompile Include="list 원소 제거.cpp">
+      <Filter>소스 파일\STL\list</Filter>
+    </ClCompile>
+    <ClCompile Include="list의 splice와 merge.cpp">
+      <Filter>소스 파일\STL\list</Filter>
+    </ClCompile>
+    <ClCompile Include="list sort 와 unique.cpp">
+      <Filter>소스 파일\STL\list</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
