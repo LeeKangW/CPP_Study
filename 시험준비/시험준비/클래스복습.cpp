@@ -8,8 +8,8 @@ class Model {
 public:
 	Model() { cout << "기본생성자" << endl; }
 	Model(size_t size) :size{ size } {
-		data = (char*)&size;
-		
+
+		data = &static_cast<char>(size);
 
 		cout << "매개변수가 있는 생성자" << endl;
 

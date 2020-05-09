@@ -1,0 +1,1 @@
+#include<iostream>#include<vector>#include"String.h"#include"save.h"usingnamespacestd;intmain(){vector<String>v;v.push_back(String("코로나"));//원소를관리하는컨테이너는범위기반의for를사용하자for(Strings:v)cout<<s<<endl;save("vector사용.cpp");}
