@@ -137,3 +137,15 @@ bool String::operator==(const String& str)const noexcept {
 	return false;
 }
 
+String::iterator String::begin() {
+	return iterator(p);
+}
+String::iterator String::end() {
+	return iterator(p + len);
+}
+String::reverse_iterator String::rbegin() {
+	return reverse_iterator(p + len);
+}
+String::reverse_iterator String::rend(){
+	return reverse_iterator(p);
+}

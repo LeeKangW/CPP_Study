@@ -8,6 +8,82 @@
 // 2020. 4.	Programmed by Wulong
 //-----------------------------------------------------------------------------
 #pragma once
+class String_Iterator {
+	char* p{ nullptr };
+
+public:
+	String_Iterator(char* p) :p{ p } {}
+
+	bool operator!=(const String_Iterator& rhs)const {
+		return p != rhs.p;
+	}
+
+	String_Iterator& operator++() {
+		++p;
+		return *this;
+	}
+	char operator*() {
+		return *p;
+	}
+
+	ptrdiff_t operator-(const String_Iterator rhs) const {
+		return p - rhs.p;
+	}
+	
+	// ===== 내가 만든 것들 ======
+	String_Iterator& operator+(const String_Iterator rhs) {
+		memcpy(p, rhs.p, strlen(p));
+		return *this;
+	}
+
+	bool operator==(const String_Iterator& rhs)const {
+		return p == rhs.p;
+	}
+	bool operator<(const String_Iterator& rhs)const {
+
+		return std::string(p, strlen(p)) < std::string(rhs.p,strlen(rhs.p));
+	}
+	//String_Iterator& operator--() {
+	//	--p;
+	//	return *this;
+	//}
+	//String_Iterator& operator+=(const String_Iterator& rhs){
+	//	memcpy(p, rhs.p, strlen(p));
+	//	return *this;
+	//}
+	//String_Iterator& operator=(const String_Iterator& rhs) {
+	//	if (p == rhs.p)
+	//		return *this;
+	//	memcpy(p, rhs.p, strlen(p));
+	//	return *this;
+	//}
+};
+
+template<>
+struct std::iterator_traits<String_Iterator> {
+	using iterator_category = random_access_iterator_tag;
+	using value_type = char;
+	using difference_type = ptrdiff_t;
+	using pointer = char*;
+	using reference = char&;
+
+};
+
+class String_Reverse_Iterator {
+	char* p{ nullptr };
+public:
+	String_Reverse_Iterator(char* p) :p{ p } {};
+	bool operator!=(const String_Reverse_Iterator& rhs)const {
+		return p != rhs.p;
+	}
+	String_Reverse_Iterator& operator++() {
+		--p;
+		return *this;
+	}
+	char operator*() {
+		return *(p - 1);
+	}
+};
 
 class String {
 	size_t len { 0 };
@@ -40,5 +116,14 @@ public:
 
 	// 연습
 	bool operator==(const String& str)const noexcept;
+
+	using iterator = String_Iterator;
+	using reverse_iterator = String_Reverse_Iterator;
+
+	iterator begin();
+	iterator end();
+	reverse_iterator rbegin();
+	reverse_iterator rend();
+	
 };
 

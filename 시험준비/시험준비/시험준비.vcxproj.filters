@@ -22,6 +22,18 @@
     <Filter Include="소스 파일\STL\list">
       <UniqueIdentifier>{b28d5aea-8bdf-458a-a1ec-e23d59380a46}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\STL\파일열기">
+      <UniqueIdentifier>{2d3282cb-271d-493b-82c0-7acf01a2b792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\STL\반복자">
+      <UniqueIdentifier>{ac937e3e-94b3-428a-8168-0dc690b7d212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\STL\제네릭 함수">
+      <UniqueIdentifier>{e0266a71-a5cb-4551-8b33-e3d92e563dfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\STL\Map">
+      <UniqueIdentifier>{8c420391-e500-4723-be8d-6676d0d57a6c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1주1일-과제.cpp">
@@ -104,6 +116,27 @@
     </ClCompile>
     <ClCompile Include="list sort 와 unique.cpp">
       <Filter>소스 파일\STL\list</Filter>
+    </ClCompile>
+    <ClCompile Include="STL Wiki 로 여러가지.cpp">
+      <Filter>소스 파일\STL\파일열기</Filter>
+    </ClCompile>
+    <ClCompile Include="STL Wiki.txt 읽기.cpp">
+      <Filter>소스 파일\STL\파일열기</Filter>
+    </ClCompile>
+    <ClCompile Include="STL wiki.txt 파일 거꾸로 출력.cpp">
+      <Filter>소스 파일\STL\파일열기</Filter>
+    </ClCompile>
+    <ClCompile Include="반복자1.cpp">
+      <Filter>소스 파일\STL\반복자</Filter>
+    </ClCompile>
+    <ClCompile Include="String 헤더파일 수정.cpp">
+      <Filter>소스 파일\STL\반복자</Filter>
+    </ClCompile>
+    <ClCompile Include="제네릭1.cpp">
+      <Filter>소스 파일\STL\제네릭 함수</Filter>
+    </ClCompile>
+    <ClCompile Include="map 연습.cpp">
+      <Filter>소스 파일\STL\Map</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
