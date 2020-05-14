@@ -6,8 +6,6 @@ void save(string_view str) { // save Á¤ÀÇ
 	size_t size = filesystem::file_size(str);
 
 	unique_ptr<char[]>p{ new char[size] };
-
-	unique_ptr<int[]>k;
 	
 	ifstream in(str);
 
