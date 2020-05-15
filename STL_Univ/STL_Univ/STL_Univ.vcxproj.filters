@@ -94,8 +94,8 @@
     <Filter Include="소스 파일\과제">
       <UniqueIdentifier>{65351762-ea34-46de-a017-8352fdfac711}</UniqueIdentifier>
     </Filter>
-    <Filter Include="헤더 파일\과제">
-      <UniqueIdentifier>{905ae3d3-2349-4464-9088-ff874696b141}</UniqueIdentifier>
+    <Filter Include="소스 파일\9주 2일%28 복습 %29">
+      <UniqueIdentifier>{f2b71877-5660-496b-b8db-aca079f9fc7c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -402,11 +402,17 @@
     <ClCompile Include="실습 3. Dog만마리 파일을 set으로 읽기.cpp">
       <Filter>소스 파일\8주 2일%28맵, 셋%29</Filter>
     </ClCompile>
-    <ClCompile Include="Player.cpp">
-      <Filter>소스 파일\과제</Filter>
-    </ClCompile>
     <ClCompile Include="Main.cpp">
       <Filter>소스 파일\과제</Filter>
+    </ClCompile>
+    <ClCompile Include="객체 저장.cpp">
+      <Filter>소스 파일\9주 2일%28 복습 %29</Filter>
+    </ClCompile>
+    <ClCompile Include="파일 읽어오기%28vector%29.cpp">
+      <Filter>소스 파일\9주 2일%28 복습 %29</Filter>
+    </ClCompile>
+    <ClCompile Include="파일 읽어오기(set).cpp">
+      <Filter>소스 파일\9주 2일%28 복습 %29</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -418,9 +424,6 @@
     </ClInclude>
     <ClInclude Include="save.h">
       <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Player.h">
-      <Filter>헤더 파일\과제</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
