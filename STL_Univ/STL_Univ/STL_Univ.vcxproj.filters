@@ -97,6 +97,9 @@
     <Filter Include="소스 파일\9주 2일%28 복습 %29">
       <UniqueIdentifier>{f2b71877-5660-496b-b8db-aca079f9fc7c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\파일 입출력 실험">
+      <UniqueIdentifier>{4e2d5e33-bff1-4dca-a888-5c81ff424b20}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="소스.cpp">
@@ -413,6 +416,15 @@
     </ClCompile>
     <ClCompile Include="파일 읽어오기(set).cpp">
       <Filter>소스 파일\9주 2일%28 복습 %29</Filter>
+    </ClCompile>
+    <ClCompile Include="족보 연습.cpp">
+      <Filter>소스 파일\9주 2일%28 복습 %29</Filter>
+    </ClCompile>
+    <ClCompile Include="연습.cpp">
+      <Filter>소스 파일\9주 2일%28 복습 %29</Filter>
+    </ClCompile>
+    <ClCompile Include="파일입출력실험.cpp">
+      <Filter>소스 파일\파일 입출력 실험</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
