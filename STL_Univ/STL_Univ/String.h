@@ -92,6 +92,8 @@ public:
 
 	friend std::ostream& operator<<( std::ostream& os, const String& s );
 
+	friend std::istream& operator>>(std::istream& in, String& s);
+
 	// 반복자를 위한 멤버
 	// 2020. 4. 25 추가
 	using iterator = String_Iterator;

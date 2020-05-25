@@ -124,6 +124,12 @@ std::ostream& operator<<( std::ostream& os, const String& s )
 	os.write( s.p, s.len );
 	return os;
 }
+std::istream& operator>>(std::istream& in, String& s) {
+	
+	
+	
+	return in;
+}
 
 // 2020. 4. 20 Ãß°¡
 bool String::operator==(const String& rhs)const noexcept {
