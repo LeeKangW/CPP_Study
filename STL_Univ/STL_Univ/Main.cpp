@@ -4,7 +4,6 @@
 #include<fstream>
 #include<algorithm>
 #include<iomanip>
-#include<chrono>
 #include<thread>
 
 using namespace std;
@@ -115,7 +114,7 @@ int main() {
 			cout << "3. 나의 챔피언스 리그 랭킹" << endl;
 			cout << "4. 나가기" << endl;
 			cout << "5. 파일 확인" << endl;
-			cout << "숫자 입력 -";
+			cout << "숫자 입력 - ";
 			int input;
 			cin >> input;
 
@@ -151,7 +150,7 @@ int main() {
 				if (input == 4)
 					break;
 
-			this_thread::sleep_for(chrono::milliseconds(5000)); // 시간 지연
+			this_thread::sleep_for(1000ms); // 시간 지연
 
 			system("cls"); // 화면 정리
 		}
@@ -201,11 +200,12 @@ void search_breakout_percent(vector<Player>& players,string& name) {
 	auto index = distance(players.begin(), it);
 	double percent = ((double)index / players.size()) * 100;
 
-	cout << players.size() << endl;
+	cout << endl << "======= 떼탈출 =======" << endl;
 
-	cout << "떼탈출" << endl;
+	cout << fixed;		// 소수점 부터 
+	cout.precision(1);  // 2자리 까지 출력
 
-	cout << right << setw(10) << players.at(index-1).get_Id() << right<<setw(7) << index-1 << "등 상위 " << percent << "% 점수"<< right << setw(11) << players.at(index-1).get_Breakout() << endl;
+	cout << right << setw(10) << players.at(index - 1).get_Id() << right << setw(7) << index - 1 << "등 상위 "<< percent << "% 점수" << right << setw(11) << players.at(index - 1).get_Breakout() << endl;
 	cout << right << setw(10) << players.at(index).get_Id() << right << setw(7) << index << "등 상위 "  << percent << "% 점수" << right << setw(11) << players.at(index).get_Breakout() << endl;
 	cout << right << setw(10) << players.at(index+1).get_Id() << right << setw(7) << index+1 << "등 상위 "<< percent << "% 점수" << right << setw(11) << players.at(index+1).get_Breakout() << endl;
 }
@@ -220,7 +220,11 @@ void serach_champion_percent(vector<Player>& players, string& name) {
 
 	double percent = ((double)index / players.size()) * 100;
 
-	cout << "챔피언스 리그" << endl;
+	cout << endl << "======= 챔피언스 리그 =======" << endl;
+
+	cout << fixed;		// 소수점 부터 
+	cout.precision(1);  // 2자리 까지 출력
+
 	cout << right<< setw(10) << players.at(index-1).get_Id() << right << setw(7) << index - 1 << "등 상위 "<< percent <<"% 점수" << right << setw(11) << players.at(index - 1).get_Breakout() << endl;
 	cout << right << setw(10) << players.at(index).get_Id() << right << setw(7) << index << "등 상위 "  << percent << "% 점수" << right << setw(11) << players.at(index).get_Breakout() << endl;
 	cout << right << setw(10) << players.at(index+1).get_Id() << right << setw(7) << index + 1 << "등 상위 "<< percent << "% 점수" << right << setw(11) << players.at(index + 1).get_Breakout() << endl;
