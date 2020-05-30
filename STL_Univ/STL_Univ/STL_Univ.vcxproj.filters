@@ -103,6 +103,9 @@
     <Filter Include="소스 파일\11주 1일%28기말시작%29">
       <UniqueIdentifier>{1d8d2141-8649-467d-8343-d6c979c2b880}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\11주 2일%28컨테이너 찾기 비교%29">
+      <UniqueIdentifier>{f33cb9f0-3c36-4073-9737-34a275ce0d04}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="소스.cpp">
@@ -437,6 +440,9 @@
     </ClCompile>
     <ClCompile Include="가장 빨리 찾기.cpp">
       <Filter>소스 파일\11주 1일%28기말시작%29</Filter>
+    </ClCompile>
+    <ClCompile Include="컨테이너 찾기 실력 검증.cpp">
+      <Filter>소스 파일\11주 2일%28컨테이너 찾기 비교%29</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

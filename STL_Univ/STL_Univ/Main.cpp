@@ -78,7 +78,8 @@ void insert_score(vector<Player>&, vector<int>&);
 #pragma endregion
 
 string file1{ "STL과제.txt" };
-
+const double aver{ 0.0 };
+const double standard_deviation{ 3.0 };
 int main() {
 	vector<Player> players;
 	players.reserve(10'0000); // 10'0000 명의 플레이어 생성
@@ -88,14 +89,12 @@ int main() {
 		if (!in) {
 			cout << "파일 존재 하지 않음... 데이터 새로 생성" << endl;
 			default_random_engine dre;
-			normal_distribution<> nd{ 0, 1.0 };
+			normal_distribution<> nd{ aver, standard_deviation };
 				for (int i = 0; i < players.capacity(); ++i) {
 					double val = nd(dre);
+					val = clamp(val, -5.0, 5.0);
 					val += 5.0;
-					if (val < 0)
-						val = 0.0;
-					if (10.0 < val)
-						val = 10;
+
 					players.emplace_back("쿠키런", val * 290588702.6, val * 111267038.4);
 				}
 		}
@@ -113,7 +112,7 @@ int main() {
 			cout << "2. 나의 떼탈출 랭킹" << endl;
 			cout << "3. 나의 챔피언스 리그 랭킹" << endl;
 			cout << "4. 나가기" << endl;
-			cout << "5. 파일 확인" << endl;
+			//cout << "5. 파일 확인" << endl;
 			cout << "숫자 입력 - ";
 			int input;
 			cin >> input;
@@ -127,7 +126,9 @@ int main() {
 				switch (input)
 				{
 				case 1:
+					cout << "시즌 시작!" << endl;
 					make_score(players);
+					cout << "시즌 종료!" << endl;
 					break;
 				case 2:
 				case 3:
@@ -138,10 +139,12 @@ int main() {
 					save_file(players);
 					cout << "파일 저장 완료 !" << endl;
 					break;
+					/*
 				case 5:
 					for (const Player& p : players)
 						p.show_score();
 					break;
+					*/
 				default:
 					cout << " 없는 메뉴입니다.." << endl;
 					break;
@@ -150,12 +153,12 @@ int main() {
 				if (input == 4)
 					break;
 
-			this_thread::sleep_for(1000ms); // 시간 지연
+			this_thread::sleep_for(1500ms); // 시간 지연
 
 			system("cls"); // 화면 정리
 		}
 }
-#pragma region 3번, 4번 아이디 찾기.
+#pragma region 2번, 3번 아이디 찾기.
 void search_id(vector<Player>& players, int& menu_num) {
 	cout << "Id 입력 : ";
 	string name{};
@@ -259,15 +262,13 @@ void make_score(vector<Player>& players) {
 }
 void insert_score(vector<Player>& players, vector<int>& v) {
 	default_random_engine dre;
-	normal_distribution<> nd{ 0, 1.0 };
+	normal_distribution<> nd{ aver, standard_deviation };
 
 		for (int i = 0; i < players.size(); ++i) {
 			double val = nd(dre);
+			val = clamp(val, -5.0, 5.0);
 			val += 5.0;
-				if (val < 0)
-					val = 0.0;
-				if (10.0 < val)
-					val = 10;
+
 				if (i < 5'0000) { // 떼탈출 정보 저장.
 					val *= 290588702.6;
 
