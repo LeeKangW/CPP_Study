@@ -411,9 +411,6 @@
     <ClCompile Include="실습 3. Dog만마리 파일을 set으로 읽기.cpp">
       <Filter>소스 파일\8주 2일%28맵, 셋%29</Filter>
     </ClCompile>
-    <ClCompile Include="Main.cpp">
-      <Filter>소스 파일\과제</Filter>
-    </ClCompile>
     <ClCompile Include="객체 저장.cpp">
       <Filter>소스 파일\9주 2일%28 복습 %29</Filter>
     </ClCompile>
@@ -443,6 +440,9 @@
     </ClCompile>
     <ClCompile Include="컨테이너 찾기 실력 검증.cpp">
       <Filter>소스 파일\11주 2일%28컨테이너 찾기 비교%29</Filter>
+    </ClCompile>
+    <ClCompile Include="STL과제.cpp">
+      <Filter>소스 파일\과제</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
