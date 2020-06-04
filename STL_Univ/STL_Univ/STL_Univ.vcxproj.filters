@@ -106,6 +106,9 @@
     <Filter Include="소스 파일\11주 2일%28컨테이너 찾기 비교%29">
       <UniqueIdentifier>{f33cb9f0-3c36-4073-9737-34a275ce0d04}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\12주 1일%28알고리즘%29">
+      <UniqueIdentifier>{78653f67-820c-4fa5-94a2-46994a7aac3f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="소스.cpp">
@@ -443,6 +446,9 @@
     </ClCompile>
     <ClCompile Include="STL과제.cpp">
       <Filter>소스 파일\과제</Filter>
+    </ClCompile>
+    <ClCompile Include="알고리즘 함수 만들어보기.cpp">
+      <Filter>소스 파일\12주 1일%28알고리즘%29</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

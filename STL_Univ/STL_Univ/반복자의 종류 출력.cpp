@@ -7,8 +7,8 @@
 #include<iterator>
 #include"String.h"
 
-template <class T>
-void showCategory(const T&);
+template <class Iter>
+void showCategory(const Iter&);
 
 int main() {
 	istream_iterator<char> in_iter;
@@ -33,7 +33,7 @@ int main() {
 
 }
 
-template<class T>
-void showCategory(const T& t) {
-	cout << typeid(iterator_traits<T>::iterator_category).name() << endl;
+template<class Iter>
+void showCategory(const Iter& t) {
+	cout << typeid(iterator_traits<Iter>::iterator_category).name() << endl;
 }

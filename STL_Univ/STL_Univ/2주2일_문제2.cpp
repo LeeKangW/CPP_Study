@@ -1,17 +1,17 @@
 #include"default.h"
 #include<string>
 
-template<typename T,int length>
+template<typename Iter,int length>
 class Array {
 private:
-	T* data{ nullptr };
+	Iter* data{ nullptr };
 public:
-	explicit Array() :data{ new T[length] }{}
+	explicit Array() :data{ new Iter[length] }{}
 	~Array() { delete[] data; }
 	Array(const Array&) = delete;
 	Array& operator=(const Array&) = delete;
 
-	T& operator[](int idx) {
+	Iter& operator[](int idx) {
 		return data[idx];
 	}
 

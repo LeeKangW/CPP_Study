@@ -2,8 +2,8 @@
 #include"String.h"
 #include<algorithm>
 
-template<class T>
-T my_max_element(T b,T e);
+template<class Iter>
+Iter my_max_element(Iter b,Iter e);
 
 int main() {
 	String str{ "The quick brown fox jumps over the lazy dog" };
@@ -13,8 +13,8 @@ int main() {
 	cout << "최대: " << *p << endl;
 }
 
-template<class T>
-T my_max_element(T b, T e) {
+template<class Iter>
+Iter my_max_element(Iter b, Iter e) {
 	
 	/*
 	//검사할 원소가 없다면
@@ -39,7 +39,7 @@ T my_max_element(T b, T e) {
 	if (b == e)
 		return e;
 
-	T max = b;
+	Iter max = b;
 
 	while (++b != e)
 		if (*max < b)

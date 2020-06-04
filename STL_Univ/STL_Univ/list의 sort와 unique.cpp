@@ -3,8 +3,8 @@
 #include<string>
 #include"String.h"
 
-template<class T>
-void print(string, T&); // container 내용 화면 출력
+template<class Iter>
+void print(string, Iter&); // container 내용 화면 출력
 
 int main() {
 	list<String> words{ "1","3","5","7","9","2","4","6","8","10","3","3" };
@@ -27,8 +27,8 @@ int main() {
 	print("words: ", words);
 
 }
-template<class T>
-void print(string name, T& cont) {
+template<class Iter>
+void print(string name, Iter& cont) {
 	cout << name;
 	for (auto& n : cont)
 		cout << n << ' ';

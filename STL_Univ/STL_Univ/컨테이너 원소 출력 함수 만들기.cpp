@@ -5,8 +5,8 @@
 
 // declaration
 //void print(String::iterator b, String::iterator e);
-template<class T>
-void print(T b, T e);
+template<class Iter>
+void print(Iter b, Iter e);
 
 int main() {
 	String str{ "The quick brown fox jumps over the lazy dog" };
@@ -31,8 +31,8 @@ void print(String::iterator b, String::iterator e) {
 }
 */
 
-template<class T>
-void print(T b, T e) {
+template<class Iter>
+void print(Iter b, Iter e) {
 	while (b != e) {
 		cout << *b << ' ';
 		++b;
