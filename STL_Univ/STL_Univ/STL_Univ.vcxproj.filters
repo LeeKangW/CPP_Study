@@ -109,6 +109,9 @@
     <Filter Include="소스 파일\12주 1일%28알고리즘%29">
       <UniqueIdentifier>{78653f67-820c-4fa5-94a2-46994a7aac3f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\13주 1일%28알고리즘 정렬%29">
+      <UniqueIdentifier>{4b5ee833-aa6a-459b-9ed3-8d697654df13}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="소스.cpp">
@@ -449,6 +452,18 @@
     </ClCompile>
     <ClCompile Include="알고리즘 함수 만들어보기.cpp">
       <Filter>소스 파일\12주 1일%28알고리즘%29</Filter>
+    </ClCompile>
+    <ClCompile Include="템플릿_검사 함수.cpp">
+      <Filter>소스 파일\13주 1일%28알고리즘 정렬%29</Filter>
+    </ClCompile>
+    <ClCompile Include="원소를 정렬하는 알고리즘.cpp">
+      <Filter>소스 파일\13주 1일%28알고리즘 정렬%29</Filter>
+    </ClCompile>
+    <ClCompile Include="stable_sort( 가장 복잡한 정렬 ).cpp">
+      <Filter>소스 파일\13주 1일%28알고리즘 정렬%29</Filter>
+    </ClCompile>
+    <ClCompile Include="binary_search 함수.cpp">
+      <Filter>소스 파일\13주 1일%28알고리즘 정렬%29</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
