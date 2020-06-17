@@ -112,6 +112,12 @@
     <Filter Include="소스 파일\13주 1일%28알고리즘 정렬%29">
       <UniqueIdentifier>{4b5ee833-aa6a-459b-9ed3-8d697654df13}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\13주 2일">
+      <UniqueIdentifier>{868911ab-8a05-42f1-a90d-219ac5099d90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\14주 1일">
+      <UniqueIdentifier>{a6a16e55-1846-4c1d-81ce-38a790777bf1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="소스.cpp">
@@ -464,6 +470,18 @@
     </ClCompile>
     <ClCompile Include="binary_search 함수.cpp">
       <Filter>소스 파일\13주 1일%28알고리즘 정렬%29</Filter>
+    </ClCompile>
+    <ClCompile Include="if constexpr .cpp">
+      <Filter>소스 파일\13주 2일</Filter>
+    </ClCompile>
+    <ClCompile Include="String 클래스 iterator.cpp">
+      <Filter>소스 파일\13주 2일</Filter>
+    </ClCompile>
+    <ClCompile Include="copy 함수에서 내가 만든 함수 넣기.cpp">
+      <Filter>소스 파일\14주 1일</Filter>
+    </ClCompile>
+    <ClCompile Include="단어들.txt를 받아 사용하기%28anagram%29.cpp">
+      <Filter>소스 파일\14주 1일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

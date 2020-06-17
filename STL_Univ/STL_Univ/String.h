@@ -58,8 +58,9 @@ public:
 	}
 };
 class String {
-	size_t len { 0 };
-	char* p { nullptr };
+	size_t len { 0 };		// 원소 수
+	char* p { nullptr };	// 저장되어 있는 메모리
+	size_t cap{ 0 };		// 확보한 메모리 바이트
 
 public:
 	String( );
@@ -105,6 +106,8 @@ public:
 
 	// 2020.5.8 추가
 	bool operator<(const String& rhs)const;
+
+	void push_back(char c);
 };
 
 // 2020. 4. 26 추가

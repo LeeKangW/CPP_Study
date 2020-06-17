@@ -159,7 +159,36 @@ String::reverse_iterator String::rbegin() {
 String::reverse_iterator String::rend() {
 	return reverse_iterator(p);
 }
+//2020 . 6. 15 push_back 추가
 
+void String::push_back(char c) {
+	if (cap == 0) {
+		cap = 1;
+		p = new char[cap];
+	}
+	else if (len == cap) {
+		int inc = cap * 1.5;
+		cap += inc;
+
+		char* tp = new char[cap];
+		memcpy(tp, p, len);
+		delete[] p;
+		p = tp;
+	}
+
+	p[len] = c;
+	++len;
+
+	/*
+		if(공간이 없다면){
+		  더 큰 공간을 확보한다.
+		  이전 데이터를 복사한다.
+		}
+		else
+		{
+		}
+	*/
+}
 // 2020.5.8 추가
 bool String::operator<(const String& rhs)const {
 	return getString() < rhs.getString();
