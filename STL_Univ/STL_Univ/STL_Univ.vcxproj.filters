@@ -118,6 +118,9 @@
     <Filter Include="소스 파일\14주 1일">
       <UniqueIdentifier>{a6a16e55-1846-4c1d-81ce-38a790777bf1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\14주 2일">
+      <UniqueIdentifier>{ede55598-13e1-406d-9ec3-4058f011c798}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="소스.cpp">
@@ -482,6 +485,9 @@
     </ClCompile>
     <ClCompile Include="단어들.txt를 받아 사용하기%28anagram%29.cpp">
       <Filter>소스 파일\14주 1일</Filter>
+    </ClCompile>
+    <ClCompile Include="애너그램 쌍 출력.cpp">
+      <Filter>소스 파일\14주 2일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
