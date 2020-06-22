@@ -121,6 +121,9 @@
     <Filter Include="소스 파일\14주 2일">
       <UniqueIdentifier>{ede55598-13e1-406d-9ec3-4058f011c798}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\15주 최종 정리">
+      <UniqueIdentifier>{aae4ca96-a623-41c7-983e-dc6d74a32fe5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="소스.cpp">
@@ -488,6 +491,9 @@
     </ClCompile>
     <ClCompile Include="애너그램 쌍 출력.cpp">
       <Filter>소스 파일\14주 2일</Filter>
+    </ClCompile>
+    <ClCompile Include="최종정리.cpp">
+      <Filter>소스 파일\15주 최종 정리</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
