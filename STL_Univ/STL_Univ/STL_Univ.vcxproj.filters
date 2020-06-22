@@ -124,6 +124,9 @@
     <Filter Include="소스 파일\15주 최종 정리">
       <UniqueIdentifier>{aae4ca96-a623-41c7-983e-dc6d74a32fe5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\기말고사 연습">
+      <UniqueIdentifier>{f2884910-4beb-4fd1-bd9d-e4afcc4984f3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="소스.cpp">
@@ -494,6 +497,15 @@
     </ClCompile>
     <ClCompile Include="최종정리.cpp">
       <Filter>소스 파일\15주 최종 정리</Filter>
+    </ClCompile>
+    <ClCompile Include="unordered 연습.cpp">
+      <Filter>소스 파일\기말고사 연습</Filter>
+    </ClCompile>
+    <ClCompile Include="반복자 구분.cpp">
+      <Filter>소스 파일\기말고사 연습</Filter>
+    </ClCompile>
+    <ClCompile Include="스마트포인터.cpp">
+      <Filter>소스 파일\기말고사 연습</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -47,7 +47,6 @@ int main() {
 		if (us.bucket_size(i)) {
 			for (auto p = us.begin(i); p != us.end(i); ++p)
 				cout << " --> " << *p; 
-			
 		}
 		cout << endl;
 	}
