@@ -127,6 +127,9 @@
     <Filter Include="소스 파일\기말고사 연습">
       <UniqueIdentifier>{f2884910-4beb-4fd1-bd9d-e4afcc4984f3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\2019 STL 기말 족보 풀어본 것">
+      <UniqueIdentifier>{a95d1f7f-b33b-4f6e-8e0d-339de13447c3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="소스.cpp">
@@ -506,6 +509,12 @@
     </ClCompile>
     <ClCompile Include="스마트포인터.cpp">
       <Filter>소스 파일\기말고사 연습</Filter>
+    </ClCompile>
+    <ClCompile Include="소스1.cpp">
+      <Filter>소스 파일\2019 STL 기말 족보 풀어본 것</Filter>
+    </ClCompile>
+    <ClCompile Include="소스2.cpp">
+      <Filter>소스 파일\2019 STL 기말 족보 풀어본 것</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
