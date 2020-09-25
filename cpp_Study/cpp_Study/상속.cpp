@@ -1,7 +1,7 @@
 #include<iostream>
 
 using namespace std;
-class A {
+class Animal {
 private:
 	int a = 0;
 public:
@@ -13,13 +13,13 @@ public:
 	}
 };
 
-class B :public A {
+class Dog :public Animal {
 	
 	void Print() override {
 		cout << "³ª´Â B" << endl;
 	}
 };
 int main() {
-	A* a = new B();
+	Animal* a = new Dog();
 	a->Print();
 }

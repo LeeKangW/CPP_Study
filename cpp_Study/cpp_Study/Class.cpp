@@ -3,7 +3,7 @@
 
 using namespace std;
 
-class A {
+class Animal {
 
 public:
 	int a() {

@@ -16,47 +16,23 @@
     <Filter Include="소스 파일\coding_test%28char&amp;string%29">
       <UniqueIdentifier>{a03cd254-9b67-493c-b696-9b03855b6af4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\GM_스터디">
+      <UniqueIdentifier>{06da4b3a-9b1d-445c-b7e5-516c693ee392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\수업자료%28인듯%29">
+      <UniqueIdentifier>{98167b30-de05-4825-a754-16cf463b80ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GM_스터디\1주차">
+      <UniqueIdentifier>{00f6b982-2980-4102-bbc6-47340c34f76e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GM_스터디\2주차">
+      <UniqueIdentifier>{1476936c-3acb-489b-bba6-ab49909498d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GM_스터디\3주차">
+      <UniqueIdentifier>{a3872c49-a792-4668-a92b-b8288d15f300}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Class.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="KPU_Coding_test.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="STL_pair.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="STL_Tuple.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="STL_vector.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Study_1.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="KPU_Yahtzee Small Straight.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="KPU_Find_NUM.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="C++_Template.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="try_catch.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="callbyrefer_n_callbypointer.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="string.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="상속.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="coding_test_atoi.cpp">
       <Filter>소스 파일\coding_test%28char&amp;string%29</Filter>
     </ClCompile>
@@ -71,6 +47,66 @@
     </ClCompile>
     <ClCompile Include="1157.cpp">
       <Filter>소스 파일\coding_test%28char&amp;string%29</Filter>
+    </ClCompile>
+    <ClCompile Include="C++_Template.cpp">
+      <Filter>소스 파일\수업자료%28인듯%29</Filter>
+    </ClCompile>
+    <ClCompile Include="callbyrefer_n_callbypointer.cpp">
+      <Filter>소스 파일\수업자료%28인듯%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Class.cpp">
+      <Filter>소스 파일\수업자료%28인듯%29</Filter>
+    </ClCompile>
+    <ClCompile Include="KPU_Coding_test.cpp">
+      <Filter>소스 파일\수업자료%28인듯%29</Filter>
+    </ClCompile>
+    <ClCompile Include="KPU_Find_NUM.cpp">
+      <Filter>소스 파일\수업자료%28인듯%29</Filter>
+    </ClCompile>
+    <ClCompile Include="KPU_Yahtzee Small Straight.cpp">
+      <Filter>소스 파일\수업자료%28인듯%29</Filter>
+    </ClCompile>
+    <ClCompile Include="STL_pair.cpp">
+      <Filter>소스 파일\수업자료%28인듯%29</Filter>
+    </ClCompile>
+    <ClCompile Include="STL_Tuple.cpp">
+      <Filter>소스 파일\수업자료%28인듯%29</Filter>
+    </ClCompile>
+    <ClCompile Include="STL_vector.cpp">
+      <Filter>소스 파일\수업자료%28인듯%29</Filter>
+    </ClCompile>
+    <ClCompile Include="string.cpp">
+      <Filter>소스 파일\수업자료%28인듯%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Study_1.cpp">
+      <Filter>소스 파일\수업자료%28인듯%29</Filter>
+    </ClCompile>
+    <ClCompile Include="try_catch.cpp">
+      <Filter>소스 파일\수업자료%28인듯%29</Filter>
+    </ClCompile>
+    <ClCompile Include="상속.cpp">
+      <Filter>소스 파일\수업자료%28인듯%29</Filter>
+    </ClCompile>
+    <ClCompile Include="1주차.cpp">
+      <Filter>소스 파일\GM_스터디\1주차</Filter>
+    </ClCompile>
+    <ClCompile Include="2주차_Vector.cpp">
+      <Filter>소스 파일\GM_스터디\2주차</Filter>
+    </ClCompile>
+    <ClCompile Include="오퍼레이터.cpp">
+      <Filter>소스 파일\GM_스터디\2주차</Filter>
+    </ClCompile>
+    <ClCompile Include="2주차_템플릿.cpp">
+      <Filter>소스 파일\GM_스터디\2주차</Filter>
+    </ClCompile>
+    <ClCompile Include="pair and tuple.cpp">
+      <Filter>소스 파일\GM_스터디\3주차</Filter>
+    </ClCompile>
+    <ClCompile Include="queue.cpp">
+      <Filter>소스 파일\GM_스터디\3주차</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>소스 파일\GM_스터디\3주차</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
