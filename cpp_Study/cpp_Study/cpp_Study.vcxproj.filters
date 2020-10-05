@@ -31,6 +31,15 @@
     <Filter Include="소스 파일\GM_스터디\3주차">
       <UniqueIdentifier>{a3872c49-a792-4668-a92b-b8288d15f300}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\GM_스터디\4주차">
+      <UniqueIdentifier>{9c86b568-282d-4ba7-924c-6fe50bb141d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GM_스터디\4주차\함수포인터 및 Functional">
+      <UniqueIdentifier>{36696e97-0a47-4a28-a8c3-9f9761b72efd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GM_스터디\4주차\스마트 포인터">
+      <UniqueIdentifier>{6faecfff-c499-492c-b55c-b639a254a0e0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="coding_test_atoi.cpp">
@@ -107,6 +116,24 @@
     </ClCompile>
     <ClCompile Include="map.cpp">
       <Filter>소스 파일\GM_스터디\3주차</Filter>
+    </ClCompile>
+    <ClCompile Include="Callable 타입.cpp">
+      <Filter>소스 파일\GM_스터디\4주차\함수포인터 및 Functional</Filter>
+    </ClCompile>
+    <ClCompile Include="Functional 사용.cpp">
+      <Filter>소스 파일\GM_스터디\4주차\함수포인터 및 Functional</Filter>
+    </ClCompile>
+    <ClCompile Include="클래스 Callable Type.cpp">
+      <Filter>소스 파일\GM_스터디\4주차\함수포인터 및 Functional</Filter>
+    </ClCompile>
+    <ClCompile Include="함수포인터 예시.cpp">
+      <Filter>소스 파일\GM_스터디\4주차\함수포인터 및 Functional</Filter>
+    </ClCompile>
+    <ClCompile Include="스마트 포인터.cpp">
+      <Filter>소스 파일\GM_스터디\4주차\스마트 포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="소스.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
