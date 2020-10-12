@@ -132,7 +132,10 @@
     <ClCompile Include="스마트 포인터.cpp">
       <Filter>소스 파일\GM_스터디\4주차\스마트 포인터</Filter>
     </ClCompile>
-    <ClCompile Include="소스.cpp">
+    <ClCompile Include="파일입출력.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="스레드.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
